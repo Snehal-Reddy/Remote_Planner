@@ -309,12 +309,12 @@ def sample_points(sx, sy, sz, gx, gy, gz, rr, ox, oy, oz, obkdtree):
     return sample_x, sample_y, sample_z
 
 def move_obs(ox,oy,oz):
-    ox[-250:-1]+=0.20
-    oy[-250:-1]+=0.20
-    oz[-250:-1]+=0.20
-    ox[-500:-250]-=0.20
-    oy[-500:-250]-=0.20
-    oz[-500:-250]-=0.20
+    ox[-250:-1]+=0.10
+    oy[-250:-1]+=0.10
+    oz[-250:-1]+=0.10
+    ox[-500:-250]-=0.10
+    oy[-500:-250]-=0.10
+    oz[-500:-250]-=0.10
     return ox,oy,oz
 
 def main():
